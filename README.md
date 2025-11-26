@@ -50,13 +50,13 @@ The application offers deep OS integration and custom user controls:
 * **Framework:** [Flutter](https://flutter.dev/)
 * **Language:** [Dart](https://dart.dev/)
 * **Key Packages (Likely):**
-    * `qr_code_scanner` / `mobile_scanner` (Scanning)
+    * `qr_code_scanner` / `qr_code_tools` (Scanning)
     * `qr_flutter` (QR Generation)
     * `image_picker` (Gallery selection)
     * `share_plus` (Sharing generated/scanned images)
     * `receive_sharing_intent` (Handling incoming shared images)
-    * `url_launcher` (Handling SMS/Email intents)
-    * `wifi_iot` (or similar for WiFi connection logic)
+    * `url_launcher` (Handling Url/SMS/Email intents)
+    * `wifi_iot` (for WiFi connection logic)
 
 ## ⬇️ Installation
 
