@@ -38,7 +38,8 @@ The application offers deep OS integration and custom user controls:
 
 | Scan from Camera | WiFi Generator | Settings Screen |
 |:---:|:---:|:---:|
-| ![Camera Scan](screenshots/camera_scan.png) | ![WiFi Gen](screenshots/wifi_gen.png) | ![Settings](screenshots/settings.png) |
+| ![Camera Scan](![5855070877756623658](https://github.com/user-attachments/assets/f32212bb-0cfd-49fd-9de2-ab7db954daeb)
+) | ![WiFi Gen](screenshots/wifi_gen.png) | ![Settings](screenshots/settings.png) |
 | *Live Feed* | *Auto-Connect Action* | *UX Controls & Feedback* |
 
 | Gallery Scan | SMS Generator | Intent Sharing Example |
