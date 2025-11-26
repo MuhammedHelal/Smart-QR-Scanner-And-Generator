@@ -40,9 +40,10 @@ The application offers deep OS integration and custom user controls:
 |:---:|:---:|:---:|
 | ![Camera Scan](https://github.com/user-attachments/assets/f32212bb-0cfd-49fd-9de2-ab7db954daeb) | ![WiFi Gen](https://github.com/user-attachments/assets/18db81bd-83e5-4f4a-a6a8-5de688ed0d58) | ![Settings](https://github.com/user-attachments/assets/4cf9d688-fd80-4130-a2e9-cee8a46f125d) |
 | *Scanning UI* | *QR Code with Connect Action* | *Toggle Controls* |
+
 | **QR Code Generator** | **History Support** | **Intent Sharing Example** |
 | ![QR Generate](https://github.com/user-attachments/assets/b1026260-0970-45c6-a029-a62626242974) | ![History](https://github.com/user-attachments/assets/6f6cc90a-8184-4ff6-9b91-bd8be0b65f13) | ![Share Intent](https://github.com/user-attachments/assets/a25850d9-954d-4b9b-938d-2f3bf6a00a0d) |
-| *SMS/Email Generator* | *Scan History List* | *Scanning Shared Image* |
+| *Supports many QR Generator* | *Scan History List* | *Scanning Shared Image* |
 
 ## 🛠️ Tech Stack
 
