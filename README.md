@@ -113,6 +113,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📧 Contact
 
-**Muhammed Helal** - [GitHub Profile](https://github.com/MuhammedHelal)
+**Muhammed Helal** - [GitHub Profile](https://github.com/MuhammedHelal) | **Phone:** +201033809569
 
 Project Link: [https://github.com/MuhammedHelal/qr_scanner](https://github.com/MuhammedHelal/qr_scanner)
