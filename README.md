@@ -60,23 +60,23 @@ The application offers deep OS integration and custom user controls:
 
 ## ⬇️ Installation
 
-1.  **Clone the repository**
-    ```bash
-    git clone [https://github.com/MuhammedHelal/qr_scanner.git](https://github.com/MuhammedHelal/qr_scanner.git)
-    ```
-2.  **Navigate to the project directory**
-    ```bash
-    cd qr_scanner
-    ```
-3.  **Install dependencies**
-    ```bash
-    flutter pub get
-    ```
-4.  **Run the application**
-    ```bash
-    flutter run
-    ```
-    > *Note: Intent sharing requires native configuration (e.g., AndroidManifest.xml and Info.plist).*
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/MuhammedHelal/qr_scanner.git](https://github.com/MuhammedHelal/qr_scanner.git)
+    ```
+2.  **Navigate to the project directory**
+    ```bash
+    cd qr_scanner
+    ```
+3.  **Install dependencies**
+    ```bash
+    flutter pub get
+    ```
+4.  **Run the application**
+    ```bash
+    flutter run
+    ```
+    > *Note: Intent sharing requires native configuration (e.g., AndroidManifest.xml and Info.plist).*
 
 ## 📱 How to Use
 
@@ -92,11 +92,20 @@ The application offers deep OS integration and custom user controls:
 
 Contributions are welcome! If you have ideas for new "Smart Actions" or UI improvements:
 
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/NewFeature`)
-3.  Commit your Changes (`git commit -m 'Add NewFeature'`)
-4.  Push to the Branch (`git push origin feature/NewFeature`)
-5.  Open a Pull Request
+1.  Fork the Project
+2.  Create your Feature Branch
+    ```bash
+    git checkout -b feature/NewFeature
+    ```
+3.  Commit your Changes
+    ```bash
+    git commit -m 'Add NewFeature'
+    ```
+4.  Push to the Branch
+    ```bash
+    git push origin feature/NewFeature
+    ```
+5.  Open a Pull Request
 
 ## 📄 License
 
