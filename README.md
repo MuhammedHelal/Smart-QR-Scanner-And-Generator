@@ -3,7 +3,7 @@
 A comprehensive Flutter application that not only scans QR codes and Barcodes but also generates specialized QR codes with smart action buttons. The app is deeply integrated with the device operating system for seamless sharing and scanning from external apps, and includes customizable user feedback.
 
 ## 🚀 Key Features
-
+---
 ### 🔍 Advanced Scanning
 * **Real-time Camera Scan:** Instant detection of QR and Barcodes using the device camera.
 * **Gallery Scan:** Ability to pick an image from the device gallery to decode QR codes.
@@ -35,7 +35,7 @@ The application offers deep OS integration and custom user controls:
     * **Custom Sound Alert:** Unique **"Quack" notification sound** upon successful code detection.
 
 ## 📸 Screenshots
-
+---
 | Camera Scan | WiFi Generator | Settings Screen |
 |:---:|:---:|:---:|
 | ![Camera Scan](https://github.com/user-attachments/assets/f32212bb-0cfd-49fd-9de2-ab7db954daeb) | ![WiFi Gen](https://github.com/user-attachments/assets/18db81bd-83e5-4f4a-a6a8-5de688ed0d58) | ![Settings](https://github.com/user-attachments/assets/4cf9d688-fd80-4130-a2e9-cee8a46f125d) |
@@ -46,7 +46,7 @@ The application offers deep OS integration and custom user controls:
 | *SMS/Email Generator* | *Scan History List* | *Scanning Shared Image* |
 
 ## 🛠️ Tech Stack
-
+---
 * **Framework:** [Flutter](https://flutter.dev/)
 * **Language:** [Dart](https://dart.dev/)
 * **Key Packages (Likely):**
@@ -59,14 +59,14 @@ The application offers deep OS integration and custom user controls:
     * `wifi_iot` (for WiFi connection logic)
 
 ## ⬇️ Installation
-
+---
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/MuhammedHelal/qr_scanner.git](https://github.com/MuhammedHelal/qr_scanner.git)
+    git clone [https://github.com/MuhammedHelal/Smart-QR-Scanner-And-Generator.git](https://github.com/MuhammedHelal/Smart-QR-Scanner-And-Generator.git)
     ```
 2.  **Navigate to the project directory**
     ```bash
-    cd qr_scanner
+    cd Smart-QR-Scanner-And-Generator
     ```
 3.  **Install dependencies**
     ```bash
@@ -79,7 +79,7 @@ The application offers deep OS integration and custom user controls:
     > *Note: Intent sharing requires native configuration (e.g., AndroidManifest.xml and Info.plist).*
 
 ## 📱 How to Use
-
+---
 ### Scanning & Intent
 * Simply open the app and point your camera.
 * Alternatively, go to your phone's gallery, share an image to the app, and it will immediately scan.
@@ -89,7 +89,7 @@ The application offers deep OS integration and custom user controls:
 * Fill out the form to generate the code. Use the **Smart Action** button below the generated QR code for instant operations (Connect, Send, etc.).
 
 ## 🤝 Contributing
-
+---
 Contributions are welcome! If you have ideas for new "Smart Actions" or UI improvements:
 
 1.  Fork the Project
@@ -108,11 +108,11 @@ Contributions are welcome! If you have ideas for new "Smart Actions" or UI impro
 5.  Open a Pull Request
 
 ## 📄 License
-
+---
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📧 Contact
-
+---
 **Muhammed Helal** - [GitHub Profile](https://github.com/MuhammedHelal) | **Phone:** +201033809569
 
-Project Link: [https://github.com/MuhammedHelal/qr_scanner](https://github.com/MuhammedHelal/qr_scanner)
+Project Link: [https://github.com/MuhammedHelal/Smart-QR-Scanner-And-Generator](https://github.com/MuhammedHelal/Smart-QR-Scanner-And-Generator)
