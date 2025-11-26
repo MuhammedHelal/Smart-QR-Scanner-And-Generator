@@ -1,44 +1,67 @@
-# QR Scanner
+# Smart QR Scanner & Generator
 
-A powerful and efficient QR Code and Barcode scanner built with Flutter. This application allows users to scan codes in real-time, view scan history, and manage scanned data with a clean and user-friendly interface.
+A comprehensive Flutter application that not only scans QR codes and Barcodes but also generates specialized QR codes with smart action buttons. The app is deeply integrated with the device operating system for seamless sharing and scanning from external apps, and includes customizable user feedback.
 
-## 🚀 Features
+## 🚀 Key Features
 
-* **Real-time Scanning:** Instantly scan QR codes and Barcodes using the device camera.
-* **Flashlight Support:** Toggle the flashlight for scanning in low-light environments.
-* **Camera Switching:** Easily switch between the rear and front-facing cameras.
-* **Scan History:** Automatically saves scanned codes for quick access later.
-* **Copy to Clipboard:** One-tap action to copy scanned data.
-* **URL Detection:** Automatically detects URLs and opens them in the default browser.
-* **Gallery Scan:** (Optional) Capability to pick an image from the gallery to scan.
-* **Generate QR Codes:** (Optional) Create your own QR codes from text or links.
+### 🔍 Advanced Scanning
+* **Real-time Camera Scan:** Instant detection of QR and Barcodes using the device camera.
+* **Gallery Scan:** Ability to pick an image from the device gallery to decode QR codes.
+* **Flashlight & Zoom:** Integrated controls for low-light environments and distance scanning.
+
+### 💡 Smart Generation & Actions
+The app creates actionable QR codes for quick execution:
+
+* **📶 WiFi QR Generator:**
+    * Generates codes with network details (SSID, Password, Encryption).
+    * **Smart Action:** Includes a button to **automatically save and connect** to the WiFi network when in range.
+* **💬 SMS QR Generator:**
+    * Pre-fills phone numbers and message bodies.
+    * **Smart Action:** One-tap button to launch the messaging app with the text pre-filled.
+* **📧 Email QR Generator:**
+    * Creates codes with Recipient, Subject, and Body.
+    * **Smart Action:** Instantly opens the default mail app with all fields populated.
+* **📝 Text & URL:** Standard generation for plain text and website links.
+
+### ⚙️ System Integration & User Experience
+The application offers deep OS integration and custom user controls:
+
+* **📥 Intent Sharing Support:**
+    * **Receive Images:** Share an image from external apps (e.g., Gallery, File Explorer) directly to this app for immediate QR/Barcode scanning.
+    * **"Open With" Action:** Tap on an image file to open it directly with the app, initiating an automatic scan.
+* **📤 QR Code Sharing:** Dedicated **Share** button to send generated or scanned QR/Barcode images to other installed applications.
+* **Custom Scan Feedback (Settings):**
+    * **Haptic Feedback:** Toggle vibration upon successful scan.
+    * **Custom Sound Alert:** Unique **"Quack" notification sound** upon successful code detection.
 
 ## 📸 Screenshots
 
-| Home Screen | Scanner View | Scan Result |
+| Scan from Camera | WiFi Generator | Settings Screen |
 |:---:|:---:|:---:|
-| ![Home Screen](screenshots/home.png) | ![Scanner View](screenshots/scanner.png) | ![Scan Result](screenshots/result.png) |
-| *Home Dashboard* | *Live Camera Feed* | *Scanned Details* |
+| ![Camera Scan](screenshots/camera_scan.png) | ![WiFi Gen](screenshots/wifi_gen.png) | ![Settings](screenshots/settings.png) |
+| *Live Feed* | *Auto-Connect Action* | *UX Controls & Feedback* |
 
-> *Note: Screenshots will be added soon.*
+| Gallery Scan | SMS Generator | Intent Sharing Example |
+|:---:|:---:|:---:|
+| ![Gallery Scan](screenshots/gallery_scan.png) | ![SMS Gen](screenshots/sms_gen.png) | ![Share Intent](screenshots/share_intent.png) |
+| *Image Picker* | *Send Action* | *Scanning Shared Image* |
+
+> *Note: Please replace the placeholder paths with your actual screenshot images.*
 
 ## 🛠️ Tech Stack
 
 * **Framework:** [Flutter](https://flutter.dev/)
 * **Language:** [Dart](https://dart.dev/)
-* **Scanning Library:** (e.g., `mobile_scanner` or `qr_code_scanner`)
-* **State Management:** (e.g., `Provider`, `Bloc`, or `GetX`)
+* **Key Packages (Likely):**
+    * `qr_code_scanner` / `mobile_scanner` (Scanning)
+    * `qr_flutter` (QR Generation)
+    * `image_picker` (Gallery selection)
+    * `share_plus` (Sharing generated/scanned images)
+    * `receive_sharing_intent` (Handling incoming shared images)
+    * `url_launcher` (Handling SMS/Email intents)
+    * `wifi_iot` (or similar for WiFi connection logic)
 
 ## ⬇️ Installation
-
-To get a local copy up and running, follow these simple steps.
-
-### Prerequisites
-
-* Flutter SDK installed on your machine.
-* Android Studio or VS Code set up.
-
-### Steps
 
 1.  **Clone the repository**
     ```bash
@@ -56,22 +79,26 @@ To get a local copy up and running, follow these simple steps.
     ```bash
     flutter run
     ```
+    > *Note: Intent sharing requires native configuration (e.g., AndroidManifest.xml and Info.plist).*
 
-## 📱 Usage
+## 📱 How to Use
 
-1.  Open the app and grant camera permissions.
-2.  Point the camera at a QR code or Barcode.
-3.  The app will automatically detect and display the content.
-4.  Use the buttons on the screen to toggle flash, switch camera, or view history.
+### Scanning & Intent
+* Simply open the app and point your camera.
+* Alternatively, go to your phone's gallery, share an image to the app, and it will immediately scan.
+
+### Generating & Actions
+* Go to the **Generate** tab and select your required type (WiFi, SMS, Email).
+* Fill out the form to generate the code. Use the **Smart Action** button below the generated QR code for instant operations (Connect, Send, etc.).
 
 ## 🤝 Contributing
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are welcome! If you have ideas for new "Smart Actions" or UI improvements:
 
 1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+2.  Create your Feature Branch (`git checkout -b feature/NewFeature`)
+3.  Commit your Changes (`git commit -m 'Add NewFeature'`)
+4.  Push to the Branch (`git push origin feature/NewFeature`)
 5.  Open a Pull Request
 
 ## 📄 License
