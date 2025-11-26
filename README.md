@@ -13,26 +13,26 @@ A comprehensive Flutter application that not only scans QR codes and Barcodes bu
 The app creates actionable QR codes for quick execution:
 
 * **📶 WiFi QR Generator:**
-    * Generates codes with network details (SSID, Password, Encryption).
-    * **Smart Action:** Includes a button to **automatically save and connect** to the WiFi network when in range.
+    * Generates codes with network details (SSID, Password, Encryption).
+    * **Smart Action:** Includes a button to **automatically save and connect** to the WiFi network when in range.
 * **💬 SMS QR Generator:**
-    * Pre-fills phone numbers and message bodies.
-    * **Smart Action:** One-tap button to launch the messaging app with the text pre-filled.
+    * Pre-fills phone numbers and message bodies.
+    * **Smart Action:** One-tap button to launch the messaging app with the text pre-filled.
 * **📧 Email QR Generator:**
-    * Creates codes with Recipient, Subject, and Body.
-    * **Smart Action:** Instantly opens the default mail app with all fields populated.
+    * Creates codes with Recipient, Subject, and Body.
+    * **Smart Action:** Instantly opens the default mail app with all fields populated.
 * **📝 Text & URL:** Standard generation for plain text and website links.
 
 ### ⚙️ System Integration & User Experience
 The application offers deep OS integration and custom user controls:
 
 * **📥 Intent Sharing Support:**
-    * **Receive Images:** Share an image from external apps (e.g., Gallery, File Explorer) directly to this app for immediate QR/Barcode scanning.
-    * **"Open With" Action:** Tap on an image file to open it directly with the app, initiating an automatic scan.
+    * **Receive Images:** Share an image from external apps (e.g., Gallery, File Explorer) directly to this app for immediate QR/Barcode scanning.
+    * **"Open With" Action:** Tap on an image file to open it directly with the app, initiating an automatic scan.
 * **📤 QR Code Sharing:** Dedicated **Share** button to send generated or scanned QR/Barcode images to other installed applications.
 * **Custom Scan Feedback (Settings):**
-    * **Haptic Feedback:** Toggle vibration upon successful scan.
-    * **Custom Sound Alert:** Unique **"Quack" notification sound** upon successful code detection.
+    * **Haptic Feedback:** Toggle vibration upon successful scan.
+    * **Custom Sound Alert:** Unique **"Quack" notification sound** upon successful code detection.
 
 ## 📸 Screenshots
 
@@ -40,23 +40,23 @@ The application offers deep OS integration and custom user controls:
 |:---:|:---:|:---:|
 | ![Camera Scan](https://github.com/user-attachments/assets/f32212bb-0cfd-49fd-9de2-ab7db954daeb) | ![WiFi Gen](https://github.com/user-attachments/assets/18db81bd-83e5-4f4a-a6a8-5de688ed0d58) | ![Settings](https://github.com/user-attachments/assets/4cf9d688-fd80-4130-a2e9-cee8a46f125d) |
 | *Scanning UI* | *QR Code with Connect Action* | *Toggle Controls* |
-|:---:|:---:|:---:|
+| --- | --- | --- | 
 | **QR Code Generator** | **History Support** | **Intent Sharing Example** |
 | ![QR Generate](https://github.com/user-attachments/assets/b1026260-0970-45c6-a029-a62626242974) | ![History](https://github.com/user-attachments/assets/6f6cc90a-8184-4ff6-9b91-bd8be0b65f13) | ![Share Intent](https://github.com/user-attachments/assets/a25850d9-954d-4b9b-938d-2f3bf6a00a0d) |
-| *Supports many QR Generator* | *Scan History List* | *Scanning Shared Image* |
+| *SMS/Email Generator* | *Scan History List* | *Scanning Shared Image* |
 
 ## 🛠️ Tech Stack
 
 * **Framework:** [Flutter](https://flutter.dev/)
 * **Language:** [Dart](https://dart.dev/)
 * **Key Packages (Likely):**
-    * `qr_code_scanner` / `mobile_scanner` (Scanning)
-    * `qr_flutter` (QR Generation)
-    * `image_picker` (Gallery selection)
-    * `share_plus` (Sharing generated/scanned images)
-    * `receive_sharing_intent` (Handling incoming shared images)
-    * `url_launcher` (Handling SMS/Email intents)
-    * `wifi_iot` (or similar for WiFi connection logic)
+    * `qr_code_scanner` / `mobile_scanner` (Scanning)
+    * `qr_flutter` (QR Generation)
+    * `image_picker` (Gallery selection)
+    * `share_plus` (Sharing generated/scanned images)
+    * `receive_sharing_intent` (Handling incoming shared images)
+    * `url_launcher` (Handling SMS/Email intents)
+    * `wifi_iot` (or similar for WiFi connection logic)
 
 ## ⬇️ Installation
 
