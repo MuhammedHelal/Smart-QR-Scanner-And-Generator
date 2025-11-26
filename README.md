@@ -42,7 +42,6 @@ The application offers deep OS integration and custom user controls:
 ) | ![WiFi Gen](![5855070877756623661](https://github.com/user-attachments/assets/18db81bd-83e5-4f4a-a6a8-5de688ed0d58)
 ) | ![Settings]![5855070877756623662](https://github.com/user-attachments/assets/4cf9d688-fd80-4130-a2e9-cee8a46f125d)
 () |
-| *Live Feed* | *Auto-Connect Action* | *UX Controls & Feedback* |
 
 | QR Codes Generator | History Support | Intent Sharing Example |
 |:---:|:---:|:---:|
@@ -50,7 +49,6 @@ The application offers deep OS integration and custom user controls:
 ) | ![History]() ![5855070877756623665](https://github.com/user-attachments/assets/6f6cc90a-8184-4ff6-9b91-bd8be0b65f13)
 | ![Share Intent]() |![5855070877756623669](https://github.com/user-attachments/assets/a25850d9-954d-4b9b-938d-2f3bf6a00a0d)
 
-| *Image Picker* | *Send Action* | *Scanning Shared Image* |
 
 ## 🛠️ Tech Stack
 
