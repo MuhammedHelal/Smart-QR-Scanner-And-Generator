@@ -38,8 +38,8 @@ The application offers deep OS integration and custom user controls:
 
 | Scan from Camera | WiFi Generator | Settings Screen |
 |:---:|:---:|:---:|
-| ![Camera Scan](![5855070877756623658](https://github.com/user-attachments/assets/f32212bb-0cfd-49fd-9de2-ab7db954daeb)
-) | ![WiFi Gen](![5855070877756623661](https://github.com/user-attachments/assets/18db81bd-83e5-4f4a-a6a8-5de688ed0d58)
+| (![5855070877756623658](https://github.com/user-attachments/assets/f32212bb-0cfd-49fd-9de2-ab7db954daeb)
+) |(![5855070877756623661](https://github.com/user-attachments/assets/18db81bd-83e5-4f4a-a6a8-5de688ed0d58)
 ) | ![Settings]![5855070877756623662](https://github.com/user-attachments/assets/4cf9d688-fd80-4130-a2e9-cee8a46f125d)
 () |
 
