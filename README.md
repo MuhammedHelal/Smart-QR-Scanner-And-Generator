@@ -39,15 +39,18 @@ The application offers deep OS integration and custom user controls:
 | Scan from Camera | WiFi Generator | Settings Screen |
 |:---:|:---:|:---:|
 | ![Camera Scan](![5855070877756623658](https://github.com/user-attachments/assets/f32212bb-0cfd-49fd-9de2-ab7db954daeb)
-) | ![WiFi Gen](screenshots/wifi_gen.png) | ![Settings](screenshots/settings.png) |
+) | ![WiFi Gen](![5855070877756623661](https://github.com/user-attachments/assets/18db81bd-83e5-4f4a-a6a8-5de688ed0d58)
+) | ![Settings]![5855070877756623662](https://github.com/user-attachments/assets/4cf9d688-fd80-4130-a2e9-cee8a46f125d)
+() |
 | *Live Feed* | *Auto-Connect Action* | *UX Controls & Feedback* |
 
-| Gallery Scan | SMS Generator | Intent Sharing Example |
+| QR Codes Generator | History Support | Intent Sharing Example |
 |:---:|:---:|:---:|
-| ![Gallery Scan](screenshots/gallery_scan.png) | ![SMS Gen](screenshots/sms_gen.png) | ![Share Intent](screenshots/share_intent.png) |
-| *Image Picker* | *Send Action* | *Scanning Shared Image* |
+| ![QR Generate](![5855070877756623660](https://github.com/user-attachments/assets/b1026260-0970-45c6-a029-a62626242974)
+) | ![History]() ![5855070877756623665](https://github.com/user-attachments/assets/6f6cc90a-8184-4ff6-9b91-bd8be0b65f13)
+| ![Share Intent]() |![5855070877756623669](https://github.com/user-attachments/assets/a25850d9-954d-4b9b-938d-2f3bf6a00a0d)
 
-> *Note: Please replace the placeholder paths with your actual screenshot images.*
+| *Image Picker* | *Send Action* | *Scanning Shared Image* |
 
 ## 🛠️ Tech Stack
 
